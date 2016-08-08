@@ -13,13 +13,14 @@ h3 {font-family: Helvetica;
     color: black;
     background-color: white;
     float: right;
+    font-size: 12px;
   }
 
 p {
-  border: 1px solid green;
+/*  border: 1px solid green; */
   background-color: #33ccff;
   width: 90%;
-  height: 150px;
+/*  height: 150px; */
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
