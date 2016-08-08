@@ -9,6 +9,11 @@ h1 {
   color: blue;
   text-align: center;
 }
+h3 {font-family: Helvetica;
+    color: black;
+    background-color: white;
+    float: right;
+  }
 
 p {
   border: 1px solid green;
@@ -19,7 +24,6 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: black;
-  padding: 10px;
 }
 
 /* Simple Responsive Framework. */
