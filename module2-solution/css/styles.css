@@ -2,6 +2,8 @@ styles.css
 /********** Base style **********/
 * {
   box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 h1 {
   margin-bottom: 15px;
@@ -17,11 +19,11 @@ h3 {font-family: Helvetica;
     font-size: 125%;
     border: 1px solid black;
     padding: 1px;
+    margin-top: 0px;
     width: 100px;
     position: absolute;
     top: 1px;
-    right: 2px; 
-   
+    right: 2px;  
   }
 
 p {
@@ -49,6 +51,7 @@ p {
     border: 1px solid black;
     margin: 10px;
    position: relative;
+   background-color: #DEB877;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -95,6 +98,7 @@ p {
     border: 1px solid black;
     margin: 10px;
     position: relative;
+    background-color: #DEB877;
   }
   .col-md-1 {
     width: 8.33%;
@@ -139,6 +143,7 @@ p {
     border: 1px solid black;
     margin: 10px;
     position: relative;
+    background-color: #DEB877;
   }
   .col-sm-1 {
     width: 8.33%;
