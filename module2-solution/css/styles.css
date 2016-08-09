@@ -26,6 +26,9 @@ h3 {font-family: Helvetica;
     right: 2px;  
   }
 
+  #menu1 {background-color: #aed673;}
+  #menu2 {background-color: #F39E77;}
+
 p {
 /*  border: 1px solid green; */
   background-color: #DEB877;
@@ -50,7 +53,7 @@ p {
     float: left;
     border: 1px solid black;
     margin: 10px;
-   position: relative;
+    position: relative;
    background-color: #DEB877;
   }
   .col-lg-1 {
@@ -97,7 +100,7 @@ p {
     float: left;
     border: 1px solid black;
     margin: 10px;
-    position: relative;
+   position: relative; 
     background-color: #DEB877;
   }
   .col-md-1 {
@@ -142,7 +145,7 @@ p {
     float: left;
     border: 1px solid black;
     margin: 10px;
-    position: relative;
+   position: relative;
     background-color: #DEB877;
   }
   .col-sm-1 {
