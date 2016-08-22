@@ -13,13 +13,11 @@ h1 {
 h3 {font-family: Helvetica;
     color: black;
     background-color: #00FFFF;
-   /* float: right; */
     font-size: 125%;
     border: 1px solid black;
-    padding: 1px;
+    padding: 2px;
     margin-top: 0px;
     width: 100px;
-    position: absolute;
     top: 1px;
     right: 1px;  
   }
@@ -41,10 +39,10 @@ h3 {font-family: Helvetica;
 p {
   background-color: #DEB877;
   width: 100%; 
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 10px;
+  margin-left: 10px; 
   margin-top: 20px;
-  padding-top: 20px;
+  padding: 20px;
   font-family: Helvetica;
   font-size: 100%;
   color: black;
@@ -61,6 +59,7 @@ p {
   width: 100%;
   margin-left: 30px;
   margin-right: auto;
+  position: relative;
 }
 
 /*imported from lecture example */
