@@ -28,7 +28,9 @@ h3 {font-family: Helvetica;
           width:100%;
           text-align: center;
           font-size: 1.5em;
-          margin-bottom: 20px;}
+          margin-bottom: 20px;
+          
+          }
 
   #menu2 {background-color: #F39E77;}
 
@@ -38,7 +40,7 @@ h3 {font-family: Helvetica;
 
 p {
   background-color: #DEB877;
-  width: 100%;
+  width: 100%; 
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
@@ -59,9 +61,7 @@ p {
   width: 100%;
   margin-left: 30px;
   margin-right: auto;
-  position:absolute;
 }
-.bigone {height:1000px;}
 
 /*imported from lecture example */
 .navbar-brand {
