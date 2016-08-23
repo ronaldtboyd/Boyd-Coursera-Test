@@ -1,6 +1,6 @@
 styles.css
 /********** Base style **********/
-* {
+:after, :before {
   box-sizing: border-box;
  }
 h1 {
@@ -54,8 +54,9 @@ p {
 .section {
   background-color: #c7c7c7;    
   border: 3px solid black;    
-  position: relative;    
-  height: 175px;   
+  position: relative;  
+  height: 300px;  
+  width:90%; 
   margin-right: 15px;    
   margin-left: 30px;    
   margin-bottom: 15px;    
@@ -115,7 +116,7 @@ p {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     margin: 10px;
-    position: relative; 
+  /*  position: relative; */
   }
   .col-md-1 {
     width: 8.33%;
@@ -158,7 +159,7 @@ p {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
     margin: 10px;
-    position: relative;
+  /*  position: relative; */
   }
   .col-sm-1 {
     width: 8.33%;
