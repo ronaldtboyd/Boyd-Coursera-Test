@@ -13,12 +13,13 @@ h1 {
 h3 {font-family: Helvetica;
     color: black;
     background-color: #00FFFF;
-   float: right; 
+    float: right; 
     font-size: 125%;
     border: 1px solid black;
     padding: 1px;
     margin-top: 0px;
     width: 100px;
+    text-align: right;
     position: absolute;
     top: 1px;
     right: 1px;  
@@ -33,27 +34,32 @@ p {
   height: 150px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
+  margin-top: 30px;
   font-family: Helvetica;
   font-size: 100%;
+  background-color: #c7c7c7;
   color: black;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  margin-right:auto;
-  margin-left: auto;
+  /*margin-right:auto;
+  margin-left: auto; */
 
 }
 .mycontainer{
-  width: 100%;
+  width: 88%;
   position:relative;
-  margin:10px auto 10px;
+  height: 200px;  
+  margin-right: 0px;    
+  margin-left: 15px;    
+  margin-bottom: 15px;    
+  padding: 10px;    
+  padding-top: 10px;
+  overflow: hidden;
 }
-.section {
-  background-color: #c7c7c7;    
-  border: 3px solid black;    
+.section {        
   position: relative;  
   height: 180px;  
   margin-right: 15px;    
@@ -70,6 +76,8 @@ p {
     float: left;
     margin: 10px;
     position: relative;
+    background-color: #c7c7c7;
+    border: 2px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -114,7 +122,9 @@ p {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     margin: 10px;
-   position: relative;
+    position: relative; 
+    background-color: #c7c7c7;
+    border: 2px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -159,6 +169,8 @@ p {
     float: left;
     margin: 10px;
     position: relative;
+    background-color: #c7c7c7;
+    border: 2px solid black;
   }
   .col-sm-1 {
     width: 8.33%;
