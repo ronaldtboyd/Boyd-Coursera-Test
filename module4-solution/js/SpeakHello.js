@@ -1,11 +1,12 @@
 
-(function(window) { 
+(function() { 
 var helloSpeaker = {};
-helloSpeaker.speak= function(names) {
 var speakWord = "Hello";
 
-helloSpeaker.speak = function (names) {
-  console.log(speakWord + " " + names);
+helloSpeaker.speak= function(name) {
+
+helloSpeaker.speak = function (name) {
+  console.log(speakWord + " " + name);
    }
 }
 window.helloSpeaker = helloSpeaker;
@@ -22,4 +23,4 @@ window.helloSpeaker = helloSpeaker;
 // See Lecture 52, part 2
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
 
-} )(window);
+})(window);
